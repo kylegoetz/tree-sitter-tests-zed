@@ -1,0 +1,15 @@
+*
+
+# Top level whitelist
+!Cargo.toml
+!Cargo.lock
+!extension.toml
+!README.md
+!lib.rs
+!.gitignore
+
+# Let gitignore see inside subdirs
+!*/
+
+# Whitelist src
+!/src/lib.rs

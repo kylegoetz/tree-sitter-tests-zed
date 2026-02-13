@@ -1,0 +1,11 @@
+id = "tree-sitter-corpus-tests-zed"
+name = "tree-sitter-corpus-tests-zed"
+description = "Support for tree-sitter corpus tests."
+version = "0.0.1"
+authors = ["Kyle Goetz <kylegoetz@gmail.com"]
+schema_version = 1
+repository = "https://github.com/kylegoetz/tree-sitter-corpus-tests-zed"
+
+[grammars.tree_sitter_corpus_test]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-test"
+commit = "76b419f178da018c29d3004fcbf14f755649eb58"
