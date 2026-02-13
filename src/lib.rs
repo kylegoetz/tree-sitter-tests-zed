@@ -1,4 +1,4 @@
-use zed_extension_api::{self as zed, Result};
+use zed_extension_api::{self as zed};
 
 struct TreeSitterCorpusTestExtension;
 
