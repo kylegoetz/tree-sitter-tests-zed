@@ -1,0 +1,12 @@
+[
+  {
+    "label": "run current file as test",
+    "command": "tree-sitter",
+    "args": ["test", "--file-name", "$ZED_RELATIVE_FILE"]
+  },
+  {
+    "label": "update current file parse trees",
+    "command": "tree-sitter",
+    "args": ["test", "--file-name", "$ZED_RELATIVE_FILE", "-u"]
+  }
+]
