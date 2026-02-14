@@ -13,3 +13,4 @@
 
 # Whitelist src
 !/src/lib.rs
+!/languages/tree-sitter-corpus-tests/*
