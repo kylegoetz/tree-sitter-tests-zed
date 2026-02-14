@@ -1,0 +1,3 @@
+name = "Tree Sitter Corpus Tests"
+grammar = "test"
+path_suffixes = ["txt"]
