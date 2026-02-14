@@ -1,10 +1,10 @@
-id = "test"
-name = "Corpus Tests"
-description = "Support for tree-sitter corpus tests."
+id = "tree-sitter-test-zed"
+name = "Tree Sitter Test Language"
+description = "Support for tree-sitter tests."
 version = "0.0.1"
-authors = ["Kyle Goetz <kylegoetz@gmail.com"]
+authors = ["Kyle Goetz <kylegoetz@gmail.com>"]
 schema_version = 1
-repository = "https://github.com/kylegoetz/tree-sitter-corpus-tests-zed"
+repository = "https://github.com/kylegoetz/tree-sitter-tests-zed"
 
 [grammars.test]
 repository = "https://github.com/tree-sitter-grammars/tree-sitter-test"
