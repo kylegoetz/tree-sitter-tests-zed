@@ -1,4 +1,4 @@
-id = "tree-sitter-tests-zed"
+id = "tree-sitter-test"
 name = "Tree Sitter Test Language"
 description = "Support for tree-sitter corpus tests."
 version = "0.0.1"
