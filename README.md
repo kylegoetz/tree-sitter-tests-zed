@@ -1,7 +1,14 @@
 # tree-sitter-corpus-tests-zed
 
-Tree Sitter corpus test support for Zed. Currently, it supports syntax highlighting for corpus tests as well as two Zed tasks: running/updating all corpus tests, and running/updating corpus tests in the current file, plus running
-tests for the current file in debug mode.
+Tree Sitter corpus test support for Zed. Currently, it supports syntax highlighting for corpus tests as well as seven Zed tasks:
+
+* running all corpus tests;
+* updating all corpus test parse trees;
+* running corpus tests in the current file;
+* updating corpus test parse trees in the current file;
+* running current test;
+* running current test in debug mode; and
+* running current test and opening the debug raph.
 
 # Credits
 
