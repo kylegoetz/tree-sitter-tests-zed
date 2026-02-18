@@ -1,12 +1,27 @@
 [
   {
-    "label": "run current file as test",
+    "label": "Run all corpus tests",
+    "command": "tree-sitter",
+    "args": ["test"]
+  },
+  {
+    "label": "Update all corpus test parse trees",
+    "command": "tree-sitter",
+    "args": ["test", "-u"]
+  },
+  {
+    "label": "Run current file as test",
     "command": "tree-sitter",
     "args": ["test", "--file-name", "$ZED_RELATIVE_FILE"]
   },
   {
-    "label": "update current file parse trees",
+    "label": "Update current file parse trees",
     "command": "tree-sitter",
     "args": ["test", "--file-name", "$ZED_RELATIVE_FILE", "-u"]
+  },
+  {
+    "label": "Run current file with debug output",
+    "command": "tree-sitter",
+    "args": ["test", "--file-name", "$ZED_RELATIVE_FILE", "-d"]
   }
 ]
