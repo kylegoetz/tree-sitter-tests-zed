@@ -10,7 +10,7 @@
     "args": ["test", "-u"]
   },
   {
-    "label": "Run current file as test",
+    "label": "Run current file's test",
     "command": "tree-sitter",
     "args": ["test", "--file-name", "$ZED_RELATIVE_FILE"]
   },
@@ -20,8 +20,18 @@
     "args": ["test", "--file-name", "$ZED_RELATIVE_FILE", "-u"]
   },
   {
-    "label": "Run current file with debug output",
+    "label": "Run current test",
     "command": "tree-sitter",
-    "args": ["test", "--file-name", "$ZED_RELATIVE_FILE", "-d"]
+    "args": ["test", "-i", "\"$ZED_SYMBOL\""]
+  },
+  {
+    "label": "Run current test in debug mode",
+    "command": "tree-sitter",
+    "args": ["test", "-i", "\"$ZED_SYMBOL\"", "-d"]
+  },
+  {
+    "label": "Run current test and open debug graph",
+    "command": "tree-sitter",
+    "args": ["test", "-i", "\"$ZED_SYMBOL\"", "-D", "&&", "open", "log.html"]
   }
 ]
