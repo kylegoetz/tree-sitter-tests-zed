@@ -1,6 +1,6 @@
 id = "tree-sitter-tests-zed"
 name = "Tree Sitter Test Language"
-description = "Support for tree-sitter tests."
+description = "Support for tree-sitter corpus tests."
 version = "0.0.1"
 authors = ["Kyle Goetz <kylegoetz@gmail.com>"]
 schema_version = 1
